@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<BookApp>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mainDemo<BookApp>",
+            "request": "launch",
+            "mainClass": "app.main.mainDemo",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<BookApp>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<BookApp>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OracleDriver<BookApp>",
+            "request": "launch",
+            "mainClass": "oracle.jdbc.OracleDriver",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaToJavaConverter<BookApp>",
+            "request": "launch",
+            "mainClass": "oracle.jdbc.driver.JavaToJavaConverter",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OracleParameterMetaDataParser<BookApp>",
+            "request": "launch",
+            "mainClass": "oracle.jdbc.driver.OracleParameterMetaDataParser",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OracleSql<BookApp>",
+            "request": "launch",
+            "mainClass": "oracle.jdbc.driver.OracleSql",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SQLStateMapping<BookApp>",
+            "request": "launch",
+            "mainClass": "oracle.jdbc.driver.SQLStateMapping",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProxyExport<BookApp>",
+            "request": "launch",
+            "mainClass": "oracle.jdbc.proxy.ProxyExport",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CharacterSetFactory<BookApp>",
+            "request": "launch",
+            "mainClass": "oracle.sql.CharacterSetFactory",
+            "projectName": "BookApp"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<BookApp>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "BookApp"
+        }
+    ]
+}
